@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43EBDCA235A63A000DD7CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */; };
+		C43EBDCC235A63A100DD7CA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */; };
+		C43EBDCE235A63A100DD7CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDCD235A63A100DD7CA7 /* ViewController.swift */; };
+		C43EBDD1235A63A100DD7CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43EBDCF235A63A100DD7CA7 /* Main.storyboard */; };
+		C43EBDD3235A63A200DD7CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43EBDD2235A63A200DD7CA7 /* Assets.xcassets */; };
+		C43EBDD6235A63A300DD7CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43EBDD4235A63A200DD7CA7 /* LaunchScreen.storyboard */; };
+		C43EBDE1235A63A300DD7CA7 /* TripCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDE0235A63A300DD7CA7 /* TripCalculatorTests.swift */; };
+		C43EBDEC235A63A300DD7CA7 /* TripCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDEB235A63A300DD7CA7 /* TripCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C43EBDDD235A63A300DD7CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43EBDBE235A63A000DD7CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43EBDC5235A63A000DD7CA7;
+			remoteInfo = TripCalculator;
+		};
+		C43EBDE8235A63A300DD7CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43EBDBE235A63A000DD7CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43EBDC5235A63A000DD7CA7;
+			remoteInfo = TripCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C43EBDC6235A63A000DD7CA7 /* TripCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C43EBDCD235A63A100DD7CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C43EBDD0235A63A100DD7CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C43EBDD2235A63A200DD7CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C43EBDD5235A63A300DD7CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C43EBDD7235A63A300DD7CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43EBDDC235A63A300DD7CA7 /* TripCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43EBDE0235A63A300DD7CA7 /* TripCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCalculatorTests.swift; sourceTree = "<group>"; };
+		C43EBDE2235A63A300DD7CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43EBDE7235A63A300DD7CA7 /* TripCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43EBDEB235A63A300DD7CA7 /* TripCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCalculatorUITests.swift; sourceTree = "<group>"; };
+		C43EBDED235A63A300DD7CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C43EBDC3235A63A000DD7CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43EBDD9235A63A300DD7CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43EBDE4235A63A300DD7CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43EBDBD235A63A000DD7CA7 = {
+			isa = PBXGroup;
+			children = (
+				C43EBDC8235A63A000DD7CA7 /* TripCalculator */,
+				C43EBDDF235A63A300DD7CA7 /* TripCalculatorTests */,
+				C43EBDEA235A63A300DD7CA7 /* TripCalculatorUITests */,
+				C43EBDC7235A63A000DD7CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C43EBDC7235A63A000DD7CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43EBDC6235A63A000DD7CA7 /* TripCalculator.app */,
+				C43EBDDC235A63A300DD7CA7 /* TripCalculatorTests.xctest */,
+				C43EBDE7235A63A300DD7CA7 /* TripCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C43EBDC8235A63A000DD7CA7 /* TripCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */,
+				C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */,
+				C43EBDCD235A63A100DD7CA7 /* ViewController.swift */,
+				C43EBDCF235A63A100DD7CA7 /* Main.storyboard */,
+				C43EBDD2235A63A200DD7CA7 /* Assets.xcassets */,
+				C43EBDD4235A63A200DD7CA7 /* LaunchScreen.storyboard */,
+				C43EBDD7235A63A300DD7CA7 /* Info.plist */,
+			);
+			path = TripCalculator;
+			sourceTree = "<group>";
+		};
+		C43EBDDF235A63A300DD7CA7 /* TripCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C43EBDE0235A63A300DD7CA7 /* TripCalculatorTests.swift */,
+				C43EBDE2235A63A300DD7CA7 /* Info.plist */,
+			);
+			path = TripCalculatorTests;
+			sourceTree = "<group>";
+		};
+		C43EBDEA235A63A300DD7CA7 /* TripCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C43EBDEB235A63A300DD7CA7 /* TripCalculatorUITests.swift */,
+				C43EBDED235A63A300DD7CA7 /* Info.plist */,
+			);
+			path = TripCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C43EBDC5235A63A000DD7CA7 /* TripCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43EBDF0235A63A300DD7CA7 /* Build configuration list for PBXNativeTarget "TripCalculator" */;
+			buildPhases = (
+				C43EBDC2235A63A000DD7CA7 /* Sources */,
+				C43EBDC3235A63A000DD7CA7 /* Frameworks */,
+				C43EBDC4235A63A000DD7CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripCalculator;
+			productName = TripCalculator;
+			productReference = C43EBDC6235A63A000DD7CA7 /* TripCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C43EBDDB235A63A300DD7CA7 /* TripCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43EBDF3235A63A300DD7CA7 /* Build configuration list for PBXNativeTarget "TripCalculatorTests" */;
+			buildPhases = (
+				C43EBDD8235A63A300DD7CA7 /* Sources */,
+				C43EBDD9235A63A300DD7CA7 /* Frameworks */,
+				C43EBDDA235A63A300DD7CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43EBDDE235A63A300DD7CA7 /* PBXTargetDependency */,
+			);
+			name = TripCalculatorTests;
+			productName = TripCalculatorTests;
+			productReference = C43EBDDC235A63A300DD7CA7 /* TripCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C43EBDE6235A63A300DD7CA7 /* TripCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43EBDF6235A63A300DD7CA7 /* Build configuration list for PBXNativeTarget "TripCalculatorUITests" */;
+			buildPhases = (
+				C43EBDE3235A63A300DD7CA7 /* Sources */,
+				C43EBDE4235A63A300DD7CA7 /* Frameworks */,
+				C43EBDE5235A63A300DD7CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43EBDE9235A63A300DD7CA7 /* PBXTargetDependency */,
+			);
+			name = TripCalculatorUITests;
+			productName = TripCalculatorUITests;
+			productReference = C43EBDE7235A63A300DD7CA7 /* TripCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C43EBDBE235A63A000DD7CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Yaroslav;
+				TargetAttributes = {
+					C43EBDC5235A63A000DD7CA7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C43EBDDB235A63A300DD7CA7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C43EBDC5235A63A000DD7CA7;
+					};
+					C43EBDE6235A63A300DD7CA7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C43EBDC5235A63A000DD7CA7;
+					};
+				};
+			};
+			buildConfigurationList = C43EBDC1235A63A000DD7CA7 /* Build configuration list for PBXProject "TripCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C43EBDBD235A63A000DD7CA7;
+			productRefGroup = C43EBDC7235A63A000DD7CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C43EBDC5235A63A000DD7CA7 /* TripCalculator */,
+				C43EBDDB235A63A300DD7CA7 /* TripCalculatorTests */,
+				C43EBDE6235A63A300DD7CA7 /* TripCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43EBDC4235A63A000DD7CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43EBDD6235A63A300DD7CA7 /* LaunchScreen.storyboard in Resources */,
+				C43EBDD3235A63A200DD7CA7 /* Assets.xcassets in Resources */,
+				C43EBDD1235A63A100DD7CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43EBDDA235A63A300DD7CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43EBDE5235A63A300DD7CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C43EBDC2235A63A000DD7CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43EBDCE235A63A100DD7CA7 /* ViewController.swift in Sources */,
+				C43EBDCA235A63A000DD7CA7 /* AppDelegate.swift in Sources */,
+				C43EBDCC235A63A100DD7CA7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43EBDD8235A63A300DD7CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43EBDE1235A63A300DD7CA7 /* TripCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43EBDE3235A63A300DD7CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43EBDEC235A63A300DD7CA7 /* TripCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C43EBDDE235A63A300DD7CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43EBDC5235A63A000DD7CA7 /* TripCalculator */;
+			targetProxy = C43EBDDD235A63A300DD7CA7 /* PBXContainerItemProxy */;
+		};
+		C43EBDE9235A63A300DD7CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43EBDC5235A63A000DD7CA7 /* TripCalculator */;
+			targetProxy = C43EBDE8235A63A300DD7CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C43EBDCF235A63A100DD7CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43EBDD0235A63A100DD7CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C43EBDD4235A63A200DD7CA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43EBDD5235A63A300DD7CA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C43EBDEE235A63A300DD7CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C43EBDEF235A63A300DD7CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C43EBDF1235A63A300DD7CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2396XLDWH;
+				INFOPLIST_FILE = TripCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TripCalculator.TripCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C43EBDF2235A63A300DD7CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2396XLDWH;
+				INFOPLIST_FILE = TripCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TripCalculator.TripCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C43EBDF4235A63A300DD7CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2396XLDWH;
+				INFOPLIST_FILE = TripCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TripCalculator.TripCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripCalculator.app/TripCalculator";
+			};
+			name = Debug;
+		};
+		C43EBDF5235A63A300DD7CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2396XLDWH;
+				INFOPLIST_FILE = TripCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TripCalculator.TripCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripCalculator.app/TripCalculator";
+			};
+			name = Release;
+		};
+		C43EBDF7235A63A300DD7CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2396XLDWH;
+				INFOPLIST_FILE = TripCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TripCalculator.TripCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripCalculator;
+			};
+			name = Debug;
+		};
+		C43EBDF8235A63A300DD7CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2396XLDWH;
+				INFOPLIST_FILE = TripCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TripCalculator.TripCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43EBDC1235A63A000DD7CA7 /* Build configuration list for PBXProject "TripCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43EBDEE235A63A300DD7CA7 /* Debug */,
+				C43EBDEF235A63A300DD7CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43EBDF0235A63A300DD7CA7 /* Build configuration list for PBXNativeTarget "TripCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43EBDF1235A63A300DD7CA7 /* Debug */,
+				C43EBDF2235A63A300DD7CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43EBDF3235A63A300DD7CA7 /* Build configuration list for PBXNativeTarget "TripCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43EBDF4235A63A300DD7CA7 /* Debug */,
+				C43EBDF5235A63A300DD7CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43EBDF6235A63A300DD7CA7 /* Build configuration list for PBXNativeTarget "TripCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43EBDF7235A63A300DD7CA7 /* Debug */,
+				C43EBDF8235A63A300DD7CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C43EBDBE235A63A000DD7CA7 /* Project object */;
+}
