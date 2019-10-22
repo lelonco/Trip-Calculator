@@ -15,6 +15,11 @@
 		C43EBDD6235A63A300DD7CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43EBDD4235A63A200DD7CA7 /* LaunchScreen.storyboard */; };
 		C43EBDE1235A63A300DD7CA7 /* TripCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDE0235A63A300DD7CA7 /* TripCalculatorTests.swift */; };
 		C43EBDEC235A63A300DD7CA7 /* TripCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDEB235A63A300DD7CA7 /* TripCalculatorUITests.swift */; };
+		C43EBDFA235A692300DD7CA7 /* CalcButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDF9235A692300DD7CA7 /* CalcButton.swift */; };
+		C43EBDFC235A6A2200DD7CA7 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDFB235A6A2200DD7CA7 /* UIColor + Extension.swift */; };
+		C43EBDFE235B24F800DD7CA7 /* CalcNumKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDFD235B24F800DD7CA7 /* CalcNumKeyboard.swift */; };
+		C43EBE00235B554700DD7CA7 /* CalcActionKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDFF235B554700DD7CA7 /* CalcActionKeyboard.swift */; };
+		C43EBE02235B642A00DD7CA7 /* CalcKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBE01235B642A00DD7CA7 /* CalcKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		C43EBDE7235A63A300DD7CA7 /* TripCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43EBDEB235A63A300DD7CA7 /* TripCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCalculatorUITests.swift; sourceTree = "<group>"; };
 		C43EBDED235A63A300DD7CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43EBDF9235A692300DD7CA7 /* CalcButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButton.swift; sourceTree = "<group>"; };
+		C43EBDFB235A6A2200DD7CA7 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		C43EBDFD235B24F800DD7CA7 /* CalcNumKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcNumKeyboard.swift; sourceTree = "<group>"; };
+		C43EBDFF235B554700DD7CA7 /* CalcActionKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcActionKeyboard.swift; sourceTree = "<group>"; };
+		C43EBE01235B642A00DD7CA7 /* CalcKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C43C091C235F8DD0003381A4 /* CalcKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C43EBE01235B642A00DD7CA7 /* CalcKeyboard.swift */,
+				C43EBDFD235B24F800DD7CA7 /* CalcNumKeyboard.swift */,
+				C43EBDFF235B554700DD7CA7 /* CalcActionKeyboard.swift */,
+				C43EBDF9235A692300DD7CA7 /* CalcButton.swift */,
+			);
+			path = CalcKeyboard;
+			sourceTree = "<group>";
+		};
 		C43EBDBD235A63A000DD7CA7 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +123,8 @@
 				C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */,
 				C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */,
 				C43EBDCD235A63A100DD7CA7 /* ViewController.swift */,
+				C43C091C235F8DD0003381A4 /* CalcKeyboard */,
+				C43EBDFB235A6A2200DD7CA7 /* UIColor + Extension.swift */,
 				C43EBDCF235A63A100DD7CA7 /* Main.storyboard */,
 				C43EBDD2235A63A200DD7CA7 /* Assets.xcassets */,
 				C43EBDD4235A63A200DD7CA7 /* LaunchScreen.storyboard */,
@@ -259,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43EBE00235B554700DD7CA7 /* CalcActionKeyboard.swift in Sources */,
+				C43EBE02235B642A00DD7CA7 /* CalcKeyboard.swift in Sources */,
 				C43EBDCE235A63A100DD7CA7 /* ViewController.swift in Sources */,
 				C43EBDCA235A63A000DD7CA7 /* AppDelegate.swift in Sources */,
+				C43EBDFA235A692300DD7CA7 /* CalcButton.swift in Sources */,
 				C43EBDCC235A63A100DD7CA7 /* SceneDelegate.swift in Sources */,
+				C43EBDFC235A6A2200DD7CA7 /* UIColor + Extension.swift in Sources */,
+				C43EBDFE235B24F800DD7CA7 /* CalcNumKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
