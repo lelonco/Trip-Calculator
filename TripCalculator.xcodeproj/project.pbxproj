@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43C091E235F984F003381A4 /* CalcListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C091D235F984F003381A4 /* CalcListTableViewCell.swift */; };
 		C43EBDCA235A63A000DD7CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */; };
 		C43EBDCC235A63A100DD7CA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */; };
 		C43EBDCE235A63A100DD7CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43EBDCD235A63A100DD7CA7 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C43C091D235F984F003381A4 /* CalcListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcListTableViewCell.swift; sourceTree = "<group>"; };
 		C43EBDC6235A63A000DD7CA7 /* TripCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */,
 				C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */,
 				C43EBDCD235A63A100DD7CA7 /* ViewController.swift */,
+				C43C091D235F984F003381A4 /* CalcListTableViewCell.swift */,
 				C43C091C235F8DD0003381A4 /* CalcKeyboard */,
 				C43EBDFB235A6A2200DD7CA7 /* UIColor + Extension.swift */,
 				C43EBDCF235A63A100DD7CA7 /* Main.storyboard */,
@@ -284,6 +287,7 @@
 			files = (
 				C43EBE00235B554700DD7CA7 /* CalcActionKeyboard.swift in Sources */,
 				C43EBE02235B642A00DD7CA7 /* CalcKeyboard.swift in Sources */,
+				C43C091E235F984F003381A4 /* CalcListTableViewCell.swift in Sources */,
 				C43EBDCE235A63A100DD7CA7 /* ViewController.swift in Sources */,
 				C43EBDCA235A63A000DD7CA7 /* AppDelegate.swift in Sources */,
 				C43EBDFA235A692300DD7CA7 /* CalcButton.swift in Sources */,

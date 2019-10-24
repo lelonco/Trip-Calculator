@@ -19,6 +19,7 @@ class CalcNumKeyboard: UIView {
     let stackView = UIStackView()
     var delAction: ((_: UIButton) -> ())?
     var numAction: ((_: UIButton) -> ())?
+    var dotAction: ((_: UIButton) -> ())?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,12 +29,14 @@ class CalcNumKeyboard: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(delAction: @escaping (_:UIButton) ->(), numAction: @escaping (_:UIButton) -> ()) {
+    init(delAction: @escaping (_:UIButton) ->(),
+         numAction: @escaping (_:UIButton) -> (),
+         dotAction: @escaping(_:UIButton) -> ()) {
         super.init(frame: .zero)
         self.translatesAutoresizingMaskIntoConstraints = false
         self.delAction = delAction
         self.numAction = numAction
-        
+        self.dotAction = dotAction
         createButtons()
         createStackView()
         
@@ -53,7 +56,7 @@ class CalcNumKeyboard: UIView {
             keyboardButtonsList.append(button)
         }
         
-        let dotButton = CalcButton(with:".", size: .square, actionBlock: numActionBlock)
+        let dotButton = CalcButton(with:".", size: .square, actionBlock: dotActionBlock)
         dotButton.backgroundColor = defColor
         let delButton = CalcButton(with:"", size: .square, actionBlock: delActionBlock)
         delButton.backgroundColor = defColor
@@ -69,6 +72,9 @@ class CalcNumKeyboard: UIView {
     
     func numActionBlock(sender: UIButton) {
         numAction?(sender)
+    }
+    func dotActionBlock(sender: UIButton) {
+        dotAction?(sender)
     }
     
     func createStackView() {
@@ -86,7 +92,7 @@ class CalcNumKeyboard: UIView {
                 arrangedView.addArrangedSubview(keyboardButtonsList[i])
                 i += 1
             }
-            stackView.addArrangedSubview(arrangedView)
+            stackView.insertArrangedSubview(arrangedView, at: 0)
         }
     }
     
