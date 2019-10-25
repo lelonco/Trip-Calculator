@@ -88,6 +88,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C40CBB4C2362111B005CD132 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				C43EBDCF235A63A100DD7CA7 /* Main.storyboard */,
+				C43EBDD2235A63A200DD7CA7 /* Assets.xcassets */,
+				C43EBDD4235A63A200DD7CA7 /* LaunchScreen.storyboard */,
+				C43EBDD7235A63A300DD7CA7 /* Info.plist */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		C40CBB4D2362114F005CD132 /* CalcTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C43C091D235F984F003381A4 /* CalcListTableViewCell.swift */,
+			);
+			path = CalcTableView;
+			sourceTree = "<group>";
+		};
 		C43C091C235F8DD0003381A4 /* CalcKeyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +144,10 @@
 				C43EBDC9235A63A000DD7CA7 /* AppDelegate.swift */,
 				C43EBDCB235A63A000DD7CA7 /* SceneDelegate.swift */,
 				C43EBDCD235A63A100DD7CA7 /* ViewController.swift */,
-				C43C091D235F984F003381A4 /* CalcListTableViewCell.swift */,
 				C43C091C235F8DD0003381A4 /* CalcKeyboard */,
 				C43EBDFB235A6A2200DD7CA7 /* UIColor + Extension.swift */,
-				C43EBDCF235A63A100DD7CA7 /* Main.storyboard */,
-				C43EBDD2235A63A200DD7CA7 /* Assets.xcassets */,
-				C43EBDD4235A63A200DD7CA7 /* LaunchScreen.storyboard */,
-				C43EBDD7235A63A300DD7CA7 /* Info.plist */,
+				C40CBB4D2362114F005CD132 /* CalcTableView */,
+				C40CBB4C2362111B005CD132 /* Misc */,
 			);
 			path = TripCalculator;
 			sourceTree = "<group>";
